@@ -1,0 +1,28 @@
+/**
+*https://css-tricks.com/shippets/css/a-guide-to-flexbox;
+**/
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.wrap{
+	background: #fafafa;
+	display: flex;
+	min-height: 100%;
+}
+
+.block{
+	background: #dddddd;
+	color: #000000;
+	font-size: 20px;
+	border: 1px solid #ff0000;
+	flex: 1; /* flex-grow: 1; */
+}
+
+.block2 {
+	flex: 4;
+	background: #cccfff;
+}

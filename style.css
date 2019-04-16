@@ -3,6 +3,42 @@
 **/
 body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td,menu{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img,abbr{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ul li,menu li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 
+nav{
+	height: 100px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+nav ul li:last-child{
+	margin-right: 0;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #555;
+	font-size: 16px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+nav ul li a:hover{
+	border: 1px solid #000;
+	color: #000;
+}
+
+
 .wrap{
 	max-width: 960px;
 	margin: 0 auto;

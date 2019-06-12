@@ -1,0 +1,44 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beginner95/flexbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beginner95/flexbox/issues"
+  },
+  "homepage": "https://github.com/Beginner95/flexbox#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "browser-sync": "^2.26.7",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-load-plugins": "^1.6.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0"
+  }
+}

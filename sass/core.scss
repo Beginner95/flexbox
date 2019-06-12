@@ -16,6 +16,7 @@ body {
 
 .container {
 	@include min-max(320px, 100%, 0);
+	background-color: $primary;
 }
 
 .wrap {

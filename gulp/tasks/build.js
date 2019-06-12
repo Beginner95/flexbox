@@ -3,6 +3,9 @@ module.exports = function () {
 		'clean',
 		'copy',
 		'sass',
-		'scripts'
+		'scripts',
+		'images',
+		'webp',
+		'svg'
 	));
 };

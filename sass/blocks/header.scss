@@ -1,0 +1,15 @@
+.header {
+	border-bottom: 4px solid $second;
+}
+
+.header__wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.header__logo {
+	margin-right: 20px;
+}

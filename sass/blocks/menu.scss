@@ -1,0 +1,52 @@
+$text-color: #707070;
+
+.menu {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+.menu__element {
+	margin-right: 35px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.menu__link {
+	font-size: 12px;
+	font-family: 'Raleway';
+	color: $text-color;
+	text-transform: uppercase;
+	line-height: 1.667;
+	display: inline-block;
+	text-decoration: none;
+	transition-duration: 500ms;
+	transition-property: color;
+
+	&::before {
+		content: '';
+		width: 8px;
+		height: 2px;
+		background-color: $second;
+		display: block;
+		margin-bottom: 2px;
+		opacity: 0;
+		transition-duration: 500ms;
+		transition-property: opacity;
+	}
+
+	&:hover {
+		color: $second;
+		&::before {
+			opacity: 1;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.menu__element {
+		margin-right: 20px;
+	}
+}

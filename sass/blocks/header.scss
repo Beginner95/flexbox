@@ -7,9 +7,26 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 0;
+	padding: 25px 0;
 }
 
 .header__logo {
 	margin-right: 20px;
+}
+
+.header__menu {
+	padding: 0;
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.header__wrap {
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 15px;
+	}
+
+	.header__logo {
+		margin: 0 0 20px 0;
+	}
 }

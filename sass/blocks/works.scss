@@ -200,3 +200,16 @@ $descriptionColor: #959595;
   right: 30px;
   bottom: 30px;
 }
+
+.works__element--active {
+    &::before {
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .works__info {
+        border-color: $second;
+        opacity: 1;
+        z-index: 2;
+    }
+}

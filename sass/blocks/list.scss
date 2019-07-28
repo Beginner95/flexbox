@@ -1,0 +1,25 @@
+$lisColor: #959595;
+
+.list {
+	font-size: 14px;
+	color: $lisColor;
+	line-height: 1.2;
+	list-style: none;
+	padding: 0;
+}
+
+.list__element {
+	margin: 15px 0;
+	padding-left: 55px;
+	position: relative;
+	&:before {
+		content: '';
+		background: $second;
+		position: absolute;
+		width: 8px;
+		height: 2px;
+		left: 23px;
+		top: 50%;
+		transition: translateY(-50%);
+	}
+}

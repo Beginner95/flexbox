@@ -1,0 +1,82 @@
+.skills {
+	background: $second;
+}
+
+.skills__wrap {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+}
+
+.skills__left {
+	flex-basis: 280px;
+	margin-right: 115px;
+}
+
+.skills__right {
+	flex-grow: 1;
+}
+
+.skills__title {
+	font-size: 30px;
+	font-family: 'Raleway';
+	color: $white;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin: 20px 0;
+	position: relative;
+
+	&::before {
+		background: $white;
+		position: absolute;
+		left: 0;
+		top: -25px;
+		width: 70px;
+		height: 2px;
+		content: '';
+	}
+}
+
+.skills__text {
+	font-size: 14px;
+	color: $white;
+	line-height: 1.4;
+	margin: 20px 0;
+}
+
+.skills__button {
+	@include button($primary) {
+		margin-top: 50px;
+		color: $second;
+	}
+}
+
+.skills__progress {
+	margin: 20px 0;
+}
+
+@media (max-width: 980px) {
+	.skills__left {
+		margin-right: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.skills__wrap {
+		flex-direction: column;
+	}
+
+	.skills__left {
+		margin-right: 0;
+		margin-bottom: 25px;
+		flex-basis: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.skills__wrap {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}

@@ -1,0 +1,46 @@
+.progress__name {
+	font-size: 14px;
+	font-family: 'Raleway';
+	color: $white;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.4;
+	margin: 10px 0;
+}
+
+.progress__element {
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	border-radius: 3px;
+	padding: 2px;
+}
+
+.progress__line {
+	background: $white;
+	width: 0;
+	height: 4px;
+	position: relative;
+}
+
+.progress__tooltip {
+	background: $primary;
+	border-radius: 3px;
+	color: $second;
+	position: absolute;
+	right: -15px;
+	top: -32px;
+	width: 31px;
+	font-size: 11px;
+	font-family: 700;
+	line-height: 18px;
+	text-align: center;
+
+	&::before {
+		content: '';
+		border: 4px solid transparent;
+		border-top: 4px solid $primary;
+		position: absolute;
+		bottom: -7px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
